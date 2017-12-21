@@ -47,7 +47,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         // build notification
         // the addAction re-use the same intent to keep the example short
         Uri uri= RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-
         Notification n = new Notification.Builder(this)
                 .setContentTitle(data.get("title"))
                 .setContentText(data.get("body"))
