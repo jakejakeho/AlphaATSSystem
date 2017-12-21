@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Alpha ATS System</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">User Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_login">Login</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_login_short">Login</string>
+    <string name="action_forget_password">Forget password</string>
+    <string name="action_register">No accounts?</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="popup_no_internet">Unable to Login</string>
+    <string name="popup_no_internet_detail">Please check your internet connect</string>
+    <string name="popup_no_internet_left_button">Cancel</string>
+    <string name="popup_no_internet_right_button">OK</string>
+
+    <string name="popup_forget_password">Forget password</string>
+    <string name="popup_forget_password_detail">Enter your email / username to reset your password</string>
+    <string name="prompt_forget_password">Email/username</string>
+    <string name="popup_forget_password_left_button">Cancel</string>
+    <string name="popup_forget_password_right_button">Submit</string>
+
+    <string name="popup_failed_to_login">Invalid Username / Password</string>
+    <string name="popup_failed_to_login_detail">%1$d times Attempts</string>
+    <string name="popup_failed_to_login_left_button">Cancel</string>
+    <string name="popup_failed_to_login_right_button">OK</string>
+
+    <string name="popup_login_success_detail">Currently login as %1$s</string>
+    <string name="popup_login_success_button">OK</string>
+
+    <string name="popup_one_device">Only one device to login</string>
+    <string name="popup_one_device_detail">Another (%1$s) Device is logged in</string>
+    <string name="popup_one_device_left_button">Cancel</string>
+    <string name="popup_one_device_right_button">Log it out</string>
+
+    <string name="popup_session_expired">Login Session Expired</string>
+    <string name="popup_session_expired_detail">Please Re-Login your account</string>
+    <string name="popup_session_expired_left_button">Cancel</string>
+    <string name="popup_session_expired_right_button">OK</string>
+
+    <string name="title_activity_main">mainActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="logged_in_as">%1$s\n is currently logged in</string>
+    <string name="account">Account</string>
+    <string name="entry_order">Entry Order</string>
+    <string name="exit_order">Exit Order</string>
+    <string name="entry_strategy">Entry Strategy</string>
+    <string name="exit_strategy">Exit Strategy</string>
+    <string name="product">Product</string>
+    <string name="time_frame">Time Frame</string>
+    <string name="size">Size</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="position">Position</string>
+    <string name="entry_day">Entry Day</string>
+    <string name="exit_day">Exit Day</string>
+    <string name="entry_strategy_u0026_price"><![CDATA[Entry Strategy & Price]]></string>
+    <string name="exit_strategy_u0026_price"><![CDATA[Exit Strategy & Price]]></string>
+    <string name="unrealised_p_u0026l"><![CDATA[Unrealised P&L]]></string>
+
+
+</resources>

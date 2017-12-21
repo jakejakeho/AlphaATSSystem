@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.petrasons.alphaatssystem.LoginActivity"
+    android:weightSum="1">
+    <LinearLayout
+        android:id="@+id/login_form"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="24dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="72dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/alpha_logo_black" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font"
+                    android:textColor="@color/black"
+                    android:hint="@string/prompt_username"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:imeOptions="actionNext"
+                    android:nextFocusDown="@+id/password"/>
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/prompt_password"
+                    android:fontFamily="@font/font"
+                    android:textColor="@color/black"
+                    android:imeActionLabel="@string/action_login_short"
+                    android:imeOptions="actionGo"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/username_log_in_button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_marginTop="16dp"
+                android:text="@string/action_login"
+                android:fontFamily="@font/font"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:autoSizeMaxTextSize="30sp"
+                app:autoSizeMinTextSize="6sp"
+                app:autoSizeTextType="uniform"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/forget_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textAlignment="gravity"
+                    android:fontFamily="@font/font"
+                    android:text="@string/action_forget_password"
+                    android:textColor="@color/black"
+                    android:maxLines="1"
+                    app:autoSizeMaxTextSize="30sp"
+                    app:autoSizeMinTextSize="6sp"
+                    app:autoSizeTextType="uniform"/>
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textAlignment="gravity"
+                    android:fontFamily="@font/font"
+                    android:maxLines="1"
+                    app:autoSizeMaxTextSize="30sp"
+                    app:autoSizeMinTextSize="6sp"
+                    app:autoSizeTextType="uniform"
+                    android:text=" / "/>
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textAlignment="gravity"
+                    android:fontFamily="@font/font"
+                    android:text="@string/action_register"
+                    android:textColor="@color/black"
+                    android:maxLines="1"
+                    app:autoSizeMaxTextSize="30sp"
+                    app:autoSizeMinTextSize="6sp"
+                    app:autoSizeTextType="uniform"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/abc"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75"
+                android:orientation="horizontal"
+                android:fitsSystemWindows="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "316702909234",
+    "firebase_url": "https://aplhaatssystem.firebaseio.com",
+    "project_id": "aplhaatssystem",
+    "storage_bucket": "aplhaatssystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316702909234:android:e1d29a4eadd8b0ac",
+        "android_client_info": {
+          "package_name": "com.petrasons.alphaatssystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316702909234-lqiedjof8bbn62duc4dg3j2sg6g0akui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV7EZKOdp1dlVPbRk-VSxXU0eQhvW-ZWY"
+        },
+        {
+          "current_key": "AIzaSyALpUielLSPjhjqGUPnvmPvRAimArbHx1k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
